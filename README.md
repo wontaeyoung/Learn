@@ -29,6 +29,6 @@
 
 - String Interpolation
 - 프로그램 실행 중 문자열 내에 변수 또는 상수의 실질적인 값을 표현하기 위해 사용
-- \()
+- \\()
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28ebf843-5c57-4009-87ea-7633b1c5acd1/Untitled.png)

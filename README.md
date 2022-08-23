@@ -1,34 +1,5 @@
 # Learn
 
-## 명명법
+## Swift
 
-### 이름짓기 규칙
-
-- Swift는 기본적으로 Camel Case를 사용한다
-    - Lower Camel Case : function, method, variable, constant(상수)
-    Ex) someVariableName, gemCount
-    - Upper Camel Case : Type (class, struct(구조체), enum(열거형), extension)
-    Ex) Person, Point, Week
-    - 대소문자 구분
-
-## 콘솔로그
-
-- print
-    - 단순 문자열 출력
-    Ex) **__lldb_expr_28.Kaz**
-- dump
-    - 인스턴스의 자세한 설명(description 프로퍼티)까지 출력 (클래스가 가지고 있는 값 종류들까지)
-    Ex) **__lldb_expr_28.Kaz #0
-    - name: "Won"
-    - age: 10**
-- 스트리밍으로 사용해서 로그파일까지 남길 수 있다?
-    
-    
-
-## 문자열 보간법
-
-- String Interpolation
-- 프로그램 실행 중 문자열 내에 변수 또는 상수의 실질적인 값을 표현하기 위해 사용
-- \\()
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28ebf843-5c57-4009-87ea-7633b1c5acd1/Untitled.png)
+- [명명법, 콘솔로그, 문자열 보간법](https://github.com/hexter1994/Learn/blob/main/Swift/%EB%AA%85%EB%AA%85%EB%B2%95_%EC%BD%98%EC%86%94%EB%A1%9C%EA%B7%B8_%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B3%B4%EA%B0%84%EB%B2%95.md)

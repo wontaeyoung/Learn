@@ -12,3 +12,4 @@
 - [조건문](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
 - [반복문](https://github.com/hexter1994/Learn/blob/main/Swift/%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
 - [옵셔널](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%98%B5%EC%85%94%EB%84%90.md)
+- [구조체](https://github.com/hexter1994/Learn/blob/main/Swift/%EA%B5%AC%EC%A1%B0%EC%B2%B4.md)

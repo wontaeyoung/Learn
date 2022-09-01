@@ -14,3 +14,5 @@
 - [옵셔널](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%98%B5%EC%85%94%EB%84%90.md)
 - [구조체](https://github.com/hexter1994/Learn/blob/main/Swift/%EA%B5%AC%EC%A1%B0%EC%B2%B4.md)
 - [클로저](https://github.com/hexter1994/Learn/tree/main/Swift)
+- [프로퍼티](https://github.com/hexter1994/Learn/blob/main/Swift/%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0.md)
+- [프로퍼티 감시자](https://github.com/hexter1994/Learn/blob/main/Swift/%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EA%B0%90%EC%8B%9C%EC%9E%90.md)

@@ -20,3 +20,4 @@
 - [인스턴스 생성과 소멸](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EC%86%8C%EB%A9%B8.md)
 - [옵셔널 체이닝](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%98%B5%EC%85%94%EB%84%90%20%EC%B2%B4%EC%9D%B4%EB%8B%9D.md)
 - [타입 캐스팅](https://github.com/hexter1994/Learn/blob/main/Swift/%ED%83%80%EC%9E%85%20%EC%BA%90%EC%8A%A4%ED%8C%85.md)
+- [안전 작동 검사](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%95%88%EC%A0%84%20%EC%9E%91%EB%8F%99%20%EA%B2%80%EC%82%AC.md)

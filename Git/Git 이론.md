@@ -23,7 +23,7 @@
     - 커밋 시점에 파일들의 상태에 초점을 맞춤
     - 프로젝트 내에서 변화가 없는 파일은 새로 저장하지 않고 링크만 저장
         
-        ![시간순으로 프로젝트의 스냅샷을 저장](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ca423f4-852e-463d-b217-de9920e0c26a/Untitled.png)
+        ![시간순으로 프로젝트의 스냅샷을 저장](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ca423f4-852e-463d-b217-de9920e0c26a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T144445Z&X-Amz-Expires=86400&X-Amz-Signature=3ef1d856f7e12e9f65db8bac906e394cee06ab53645f031955a246097d7f3282&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
         
         시간순으로 프로젝트의 스냅샷을 저장
         
@@ -51,6 +51,6 @@
             - 다른 클라이언트 혹은 서버의 저장소를 **Clone** 할 때 만들어짐
             - Committed된 파일이 이 단계에 있음
             
-            ![Git 파일의 상태와 단계 흐름](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f0818f3-85e3-405e-aca2-f69b322ef068/Untitled.png)
+            ![Git 파일의 상태와 단계 흐름](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f0818f3-85e3-405e-aca2-f69b322ef068/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T144502Z&X-Amz-Expires=86400&X-Amz-Signature=0f455b1122f689d616d81896c8dd5fa1f45dd3d59ece53016e342b2195b79d98&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
             
             Git 파일의 상태와 단계 흐름

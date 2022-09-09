@@ -29,3 +29,5 @@
 
 ## Git
 - [버전 관리](https://github.com/hexter1994/Learn/blob/main/Git/%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC.md)
+- [Git 이론](https://github.com/hexter1994/Learn/blob/main/Git/Git%20%EC%9D%B4%EB%A1%A0.md)
+- [Git 명령어](https://github.com/hexter1994/Learn/blob/main/Git/Git%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)

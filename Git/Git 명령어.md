@@ -3,7 +3,7 @@
 > Git은 다양한 명령어를 통해 Git을 조작하고 파일의 상태를 변경할 수 있음
 > 
 
-![파일의 상태 및 라이프사이클](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95564b9f-4c25-4f36-a03b-d4811d32a939/Untitled.png)
+![파일의 상태 및 라이프사이클](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/95564b9f-4c25-4f36-a03b-d4811d32a939/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220909T142705Z&X-Amz-Expires=86400&X-Amz-Signature=2d31bf12ec40836e538173763ca47f16e53c47c8224b089495e89203b025837f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 파일의 상태 및 라이프사이클
 

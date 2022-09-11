@@ -180,7 +180,7 @@
         - x : 실행(Execute)
 - `$ ls -l [파일명]` 명령어를 통해 파일의 권한 상태를 확인할 수 있음
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1511b55-0498-4779-94e0-900746dfacd9/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1511b55-0498-4779-94e0-900746dfacd9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220911%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220911T082829Z&X-Amz-Expires=86400&X-Amz-Signature=e86bc1a2518a6d565fbf32408bd9e8a17f5c012cc2871e6014ca6e8f2842858d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 - `$ chmod [권한] [파일명]` 명령어를 통해 파일의 접근 권한을 변경할 수 있음
     - 8진수로 권한을 입력하는 방법

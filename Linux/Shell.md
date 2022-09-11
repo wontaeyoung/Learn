@@ -154,3 +154,33 @@
     ```bash
     $ awk '{ print $? }'
     ```
+
+### 디렉토리와 파일 권한 설정
+
+파일 접근 권한
+
+- drwxrwxrwx 의 형태로 표시
+- d | rwx | rwx | rwx → file type | Owner | Group | Other
+    - File Type
+        - - : file
+        - d : directory
+        - l : symbolic link
+        - p :  named pipe
+        - c : character device
+        - b : block device
+    - Owner, Group, Other
+        - 파일의 사용자 유형을 세 종류로 나눈 것
+        - Owner (u) : 파일의 소유자
+        - Group (g) : 파일의 소유 그룹
+        - Other (o) : 그 외 모든 사용자
+    - rwx
+        - 파일에 대한 권한 유형을 세 종류로 나눈 것
+        - r : 읽기(Read)
+        - w : 쓰기(Write)
+        - x : 실행(Execute)
+- `$ ls -l [파일명]` 명령어를 통해 파일의 권한 상태를 확인할 수 있음
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1511b55-0498-4779-94e0-900746dfacd9/Untitled.png)
+    
+- `$ chmod [권한] [파일명]` 명령어를 통해 파일의 접근 권한을 변경할 수 있음
+    - 8진수로 권한을 입력하는 방법

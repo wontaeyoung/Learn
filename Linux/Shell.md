@@ -212,8 +212,6 @@
 
 ### 쉘 스크립팅
 
----
-
 기본
 
 - 에디터로 스크립트를 작성할 때, 첫 줄은 #!/bin/bash(사용 중인 쉘)을 작성 후 시작
@@ -253,3 +251,15 @@ FOR **예제**
         ls
     done
 ```
+
+# Reference
+
+[https://spookyjelly.tistory.com/33](https://spookyjelly.tistory.com/33)
+
+[https://namu.wiki/w/Linux?from=리눅스](https://namu.wiki/w/Linux?from=%EB%A6%AC%EB%88%85%EC%8A%A4)
+
+[https://nemomemo.tistory.com/48](https://nemomemo.tistory.com/48)
+
+[https://ko.wikipedia.org/wiki/셸](https://ko.wikipedia.org/wiki/%EC%85%B8)
+
+[쉘 스크립트](https://engineer-mole.tistory.com/200)

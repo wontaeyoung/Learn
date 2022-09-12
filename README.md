@@ -34,5 +34,5 @@
 
 
 ## Linux
-- [리눅스 기초](https://github.com/hexter1994/Learn/blob/main/Linux/%EB%A6%AC%EB%88%85%EC%8A%A4%20%EA%B8%B0%EC%B4%88.md)
-- [Shell](https://github.com/hexter1994/Learn/blob/main/Linux/%EC%89%98.md)
+- [Linux 기초](https://github.com/hexter1994/Learn/blob/main/Linux/Linux%20%EA%B8%B0%EC%B4%88.md)
+- [Shell](https://github.com/hexter1994/Learn/blob/main/Linux/Shell.md)

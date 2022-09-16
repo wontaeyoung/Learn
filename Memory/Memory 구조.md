@@ -1,6 +1,6 @@
 ## 프로세스 메모리 구조 모델
 
-![High Address.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4354a87a-feb8-4efb-a67d-a794ae2fdb8c/High_Address.png)
+![High Address.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4354a87a-feb8-4efb-a67d-a794ae2fdb8c/High_Address.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220916T142149Z&X-Amz-Expires=86400&X-Amz-Signature=df804045220d7c7d8b821488808b39637779343274c30152da7ba4c70c79bed3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22High%2520Address.png%22&x-id=GetObject)
 
 ### 코드 영역
 
@@ -38,7 +38,7 @@
     - 메모리를 직접 관리해야함(해제해주지 않으면 메모리 누수(leak) 발생)
 - 힙 영역에 할당한 메모리 공간에 대해 주소를 참조하는 경우가 많음 (CS50, malloc, 포인터)
     
-    ![var myAge.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e18a6ca5-a741-422e-8061-180ff15e8423/var_myAge.png)
+    ![var myAge.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e18a6ca5-a741-422e-8061-180ff15e8423/var_myAge.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220916T142909Z&X-Amz-Expires=86400&X-Amz-Signature=14c48fae501cd551093c532b2e78617973f6019873bf1a2df0ca088af84a7103&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22var%2520myAge.png%22&x-id=GetObject)
     
 
 ### 스택 (높은 주소값부터 할당 )
@@ -60,7 +60,7 @@
     - 나중에 생성된 데이터가 먼저 해제 (LIFO)
     - push로 데이터를 저장, pop을 통해 제일 상단에 있는 데이터를 꺼냄
     
-    ![Pasted Graphic.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a35d6c1e-93f7-445e-87e5-f5341ed0fba2/Pasted_Graphic.png)
+    ![Pasted Graphic.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a35d6c1e-93f7-445e-87e5-f5341ed0fba2/Pasted_Graphic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220916T142930Z&X-Amz-Expires=86400&X-Amz-Signature=9f44e2131a3fc7e4eb8da0a2f6fd1d7418962c97d1200ddee0c7d13278b80a0c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Pasted%2520Graphic.png%22&x-id=GetObject)
     
 
 ### 힙과 스택의 관계
@@ -69,12 +69,10 @@
     - 한정된 메모리 공간의 양 끝에서, 사용하는만큼 중앙점에 가까워지는 형태
     - 힙은 낮은 메모리 주소부터, 스택은 높은 메모리 주소부터 사용함
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6afd39a4-7820-423f-969e-a7e432c085a2/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6afd39a4-7820-423f-969e-a7e432c085a2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220916T142949Z&X-Amz-Expires=86400&X-Amz-Signature=f26ab1dabc5150780cb709f7b3bf8cec43d7558aa78fcef30a396bd959aa4d5a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
     
 
 ## iOS의 가상 메모리
-
----
 
 - 메모리 관리는 좋은 사용자 경험을 제공하기 위한 중요한 요소
 - 메모리는 한정된 자원이며, 여러 프로세스가 공유하는 자원

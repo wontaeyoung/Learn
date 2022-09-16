@@ -41,6 +41,7 @@
 - [Cache 교체 정책](https://github.com/hexter1994/Learn/blob/main/Memory/Cache%20%EA%B5%90%EC%B2%B4%20%EC%A0%95%EC%B1%85.md)
 - [LRU Cache](https://github.com/hexter1994/Learn/blob/main/Memory/LRU%20Cache.md)
 - [Memory 구조](https://github.com/hexter1994/Learn/blob/main/Memory/Memory%20%EA%B5%AC%EC%A1%B0.md)
+- [Memory 단편화](https://github.com/hexter1994/Learn/blob/main/Memory/Memory%20%EB%8B%A8%ED%8E%B8%ED%99%94.md)
 
 ## HTML / CSS
 - [HTML / CSS](https://github.com/hexter1994/Learn/blob/main/HTML-CSS/HTML-CSS.md)

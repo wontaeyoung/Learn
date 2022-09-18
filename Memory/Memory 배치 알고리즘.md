@@ -64,7 +64,7 @@
 - 종합
     - First-Fit > Best-Fit > Worst-Fit
 
-### 세 알고리즘을 
+### 세 알고리즘을 직접 구현해보자
 
 ```swift
 enum FitAlgorithm : String {

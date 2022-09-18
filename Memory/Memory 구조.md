@@ -79,3 +79,9 @@
     - 메모리 누수로 인해 현재 앱이 차지하는 메모리가 커지게 되면, 백그라운드의 다른 앱을 강제 종료시키거나, 현재 앱이 강제 종료될 수 있음
 - 메모리 릭이 일어나는지 알아내고 해결하는 과정이 매우 중요
 - iOS 메모리 관리에 대한 세부 내용 - [링크](https://seizze.github.io/2019/12/20/iOS-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0,-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%9D%B4%EC%8A%88-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%98%EA%B8%B0,-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%A6%AD-%EC%B0%BE%EA%B8%B0.html)
+
+# Reference
+
+- https://www.jiwon.me/explain-heap-and-stack/
+- https://seizze.github.io/2019/12/20/iOS-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%9C%AF%EC%96%B4%EB%B3%B4%EA%B8%B0,-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%9D%B4%EC%8A%88-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%98%EA%B8%B0,-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%A6%AD-%EC%B0%BE%EA%B8%B0.html
+- https://babbab2.tistory.com/25

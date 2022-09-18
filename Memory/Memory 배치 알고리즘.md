@@ -136,3 +136,10 @@ print(allocToFitSpace(neededSize: 25, Algorithm: .worstFit))
     - 필요 공간 25 이상인 Hole 중, 25와 가장 차이가 적은 8번째 Hole 25에 할당
 - Worst-Fit
     - Hole 리스트 중 가장 큰 공간인 5번째 Hole 70에 할당
+
+
+# Reference
+
+- https://jhnyang.tistory.com/284
+- https://prepinsta.com/operating-systems/page-replacement-algorithms/first-fit/first-fit-program-in-python/
+- http://boron.physics.metu.edu.tr/ozdogan/OperatingSystems/ceng328/node182.html

@@ -14,14 +14,14 @@
     - 가장 먼저 들어온 데이터를 먼저 삭제하는 알고리즘
     - 구현이 간단하지만, 성능이 좋지 않음
         
-        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e82b58d7-43d8-491e-bff5-69daa34f91d7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220913%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220913T101609Z&X-Amz-Expires=86400&X-Amz-Signature=c2c762535594e3ce291a24c08c2d0533096b2fb4b84df4c7b7d6cc25bff19868&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e82b58d7-43d8-491e-bff5-69daa34f91d7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220918T145213Z&X-Amz-Expires=86400&X-Amz-Signature=76b769d01846182cdf190566ad45ae1892ea455098fae1703fa28207f60184d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
         
 
 - Optimal Page Replacement(OPR)
     - 이후의 참조를 예상해서 교체를 결정하는 알고리즘
     - 히트 확률은 높지만, 예측이 필요하기 때문에 구현의 현실성이 부족함
         
-        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bba4fdaf-1424-4989-aec0-d618f7ff7f5d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220913%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220913T101613Z&X-Amz-Expires=86400&X-Amz-Signature=c29b77458f9b4bfebce6cec0cb965469b4df74aa069dc43d86d8dbe64e8bac22&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bba4fdaf-1424-4989-aec0-d618f7ff7f5d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220918T145215Z&X-Amz-Expires=86400&X-Amz-Signature=a293d579d35cb670aeb3370e2459baffa71ba16a25c9d858f438ca1da45d9aaf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
         
 
 - Least Recently Used(LRU)

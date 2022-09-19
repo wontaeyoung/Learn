@@ -4,23 +4,22 @@
 
 - 인스턴스, 클로저 등 참조 타입(Reference Type)은 자동으로 힙에 할당
 - 지역 변수에 Human 클래스의 인스턴스를 생성하고 값을 초기화하는 경우 메모리에 아래와 같이 할당
+
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a668a448-fced-4edf-b5cc-e79bfe874dfc/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5d3c6c7-07b4-4920-9f37-c38ef842bfea/Untitled.png)
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/45925685/191023056-327d1ed8-0f79-4337-bc60-ba6dbbfaf5f8.png">
+
     
 - 각 속성을 포함하고 있는 Human 클래스의 실제 인스턴스는 힙에 할당
 - 지역변수는 스택에 할당되고, 힙에 있는 인스턴스를 참조 → 인스턴스의 주소값을 가지고 있음
 - 새로운 지역 변수에 기존 지역 변수를 할당하면 인스턴스가 복사되지 않고, 같은 인스턴스를 참조함
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01dfdc00-a1c1-40f3-b5a9-623b5be576c6/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a23f581-68de-410b-ab89-12fae7ff041c/Untitled.png)
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/45925685/191024734-3ce97217-348b-4c8d-bb64-f5b9489fedca.png">
+
     
 - 힙의 특징으로 사용하고 난 메모리는 반드시 직접 해제해야하지만, 실제로 인스턴스를 직접 메모리에서 해제한 적은 없음
     - 직접 해제하지 않으면, 함수가 종료되서 지역 변수들이 해제되었을 때 아래와 같은 상태가 됨
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/057ae4cf-5a13-4a42-b858-3bfeb04e0f87/Untitled.png)
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/45925685/191024767-bba560cf-6b23-4f04-9635-9be3e06a36b3.png">
         
 - ‘ARC’가 이러한 메모리 누수를 해결하기 위해 작동함
 
@@ -77,15 +76,12 @@
 - 이 경우는 크게 두 가지 경우
     1. 인스턴스를 새로 생성할 때
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5201eddd-37dc-4503-8f88-f4f99bcfb67e/Untitled.png)
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff29895-8b68-41ca-b689-c957d3c7f384/Untitled.png)
-        
+    <img width="480" alt="image" src="https://user-images.githubusercontent.com/45925685/191024841-980dd1b0-90d2-48a2-b5d2-e6cfe447b4b6.png">
+
     2. 기존 인스턴스를 다른 변수에 대입할 때
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f18da0b5-45ca-45c8-9a32-cbea52f81041/Untitled.png)
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0d1d0fd-cb78-4699-95c0-5707e6438c97/Untitled.png)
+    <img width="479" alt="image" src="https://user-images.githubusercontent.com/45925685/191024954-63c0a055-e197-44af-9533-b27818a83e01.png">
+
         
 
 ### RC가 -1이 될 때
@@ -97,54 +93,67 @@
         - makeClone 함수가 호출되어 변수 clone이 생성될 때 RC += 1
         - makeClone 함수가 종료되어 clone이 스택에서 해제될 때 RC -= 1
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c652a459-e38e-4296-adb4-6e23f34e7e35/Untitled.png)
+            <img width="623" alt="image" src="https://user-images.githubusercontent.com/45925685/191025018-47481f8e-6fb0-44cf-94a0-a35eae16a089.png">
+
             
         - makeClone이 실행될 때 메모리 예시
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5beb3901-34a2-4eca-9253-e17785e4a0dd/Untitled.png)
+            <img width="621" alt="image" src="https://user-images.githubusercontent.com/45925685/191025063-342f3907-7842-4c2e-b1a7-4df2c1c8b61e.png">
+
             
         - makeClone이 종료되어, 스택의 clone이 해제될 때 메모리 예시
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45527b15-c528-4eea-9f01-25a5813fc531/Untitled.png)
+            <img width="619" alt="image" src="https://user-images.githubusercontent.com/45925685/191025106-4701a9ac-31a0-4dde-b00b-e3de0dc83a1c.png">
+
+            
             
     2. 인스턴스 변수에 nil이 지정되었을 때
         - 변수가 옵셔널 타입인 경우
             - sodeul = Human, clone = sodeul까지 총 2개의 변수가 인스턴스를 참조하므로 RC = 2
             - 옵셔널 타입인 sodeul과 clone에 nil을 할당하면, 참조하던 주소값이 없어져서 RC = 0
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f68aa8f4-d1c4-48ed-81b6-837ab9d08c55/Untitled.png)
+        <img width="650" alt="image" src="https://user-images.githubusercontent.com/45925685/191025152-92b4905f-d343-4265-bc3d-cd07437227d6.png">
+
         
     3. 변수에 다른 인스턴스를 할당한 경우
         - sodeul과 clone에 각각 서로 다른 인스턴스를 생성 (각 인스턴스의 RC = 1)
         - sodeul에 clone을 할당하면서 기존의 sodeul에 할당되어있던 인스턴스의 주소값이 사라짐
         - sodeul 인스턴스의 RC = 0, clone 인스턴스의 RC = 2
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07f01482-de6d-48c2-8069-879b85a488e0/Untitled.png)
+            <img width="621" alt="image" src="https://user-images.githubusercontent.com/45925685/191025196-8800c5f8-49b9-4886-a3f2-2749187cce6e.png">
+
             
     4. 인스턴스가 다른 클래스에 프로퍼티로 속해있고, 그 클래스의 인스턴스가 메모리에서 해제될 때
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dabe23c2-daf2-47ea-abd9-4b3422c5d8ef/Untitled.png)
+        <img width="653" alt="image" src="https://user-images.githubusercontent.com/45925685/191025258-b4bf9c23-4f5e-4095-888b-f09c7b243c98.png">
+
+        
         
         - Contacts 클래스는 Human 클래스의 프로퍼티로 속해 있음
         - Human 인스턴스 sodeul을 생성하면, 동시에 프로퍼티인 Contacts 인스턴스 contacts가 생성
             - 두 인스턴스의 RC가 각각 1씩 증가함
             - 메모리 예시
                 
-                ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36be3297-a1b2-4261-8e58-01f6fe3bf03b/Untitled.png)
+                <img width="596" alt="image" src="https://user-images.githubusercontent.com/45925685/191025309-2314f71e-3eeb-48ca-8d3a-a5ed3d10c15a.png">
+
+                
                 
         - sodeul에 nil을 할당한 순간, sodeul의 주소값이 사라지면서 Human 인스턴스의 RC가 1 감소함
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f66aadd8-a7e0-4a47-a47a-d7f33af5493e/Untitled.png)
+            <img width="621" alt="image" src="https://user-images.githubusercontent.com/45925685/191025363-4ecbcade-c781-4cf2-bae3-543116dc55f0.png">
+
             
         - Human 인스턴스의 RC가 0이 되면서 ARC에 의해 메모리에서 해제됨
             - 이 때 Contacts 인스턴스의 주소값을 가지고 있는 contacts 프로퍼티도 같이 메모리에서 해제
             - Contacts 인스턴스의 RC가 1 감소함
                 
-                ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe8e160c-5496-4b20-9f17-5fdb54fb77fc/Untitled.png)
+                <img width="596" alt="image" src="https://user-images.githubusercontent.com/45925685/191025432-da5e6cb4-d22d-4b10-a2ad-3f76b2ae9208.png">
+
                 
         - Contacts 인스턴스의 RC가 0이 되어 ARC에 의해 메모리에서 해제
             
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40fc29e9-4677-4695-b5a2-3c1ba6d04ad8/Untitled.png)
+            <img width="623" alt="image" src="https://user-images.githubusercontent.com/45925685/191025468-c5d58d47-0c1c-4dd5-b806-078678c1c15d.png">
+
             
         - 유의할 점으로 Human 인스턴스가 해제되면서, 꼭 Contacts 인스턴스가 메모리에서 같이 해제되는 것은 아님
             - Human 인스턴스의 해제는 Contacts 인스턴스의 RC를 1 감소시킴

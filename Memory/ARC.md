@@ -1,5 +1,8 @@
 # ARC 
 
+> 하단의 ARC와 관련된 예제 및 이미지는 ‘개발자 소들이'님의 [포스트](https://babbab2.tistory.com/26?category=831129)에서 출처하였습니다.
+>
+
 ## 참조 타입과 Heap
 
 - 인스턴스, 클로저 등 참조 타입(Reference Type)은 자동으로 힙에 할당

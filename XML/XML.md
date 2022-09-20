@@ -294,3 +294,9 @@ XML에 대한 예시 이해 - [https://www.youtube.com/watch?v=55FrHTNjTCc&ab_ch
 
 - 태그를 이용하여 데이터의 구조를 기술하는 언어
 - 가장 흔하게 접할 수 있는 마크업 언어로 HTML이 있음
+
+# Reference
+	    
+- [https://namu.wiki/w/XML](https://namu.wiki/w/XML)
+- [http://www.tcpschool.com/xml/xml_intro_basic](http://www.tcpschool.com/xml/xml_intro_basic)
+- [https://velog.io/@narastro/TIL-XML](https://velog.io/@narastro/TIL-XML)

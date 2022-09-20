@@ -34,7 +34,8 @@
     - 루트(root) 요소부터 시작 → 각각의 자식(child) 요소로 연결됨
     - 모든 요소는 자신의 자식 요소를 가질 수 있음
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54ee5a60-29f9-4a9d-9cdb-d01b67ecd256/Untitled.png)
+        <img width="479" alt="image" src="https://user-images.githubusercontent.com/45925685/191250576-65889771-7c24-44f9-a29f-8f30d0ddca7a.png">
+
         
     - 부모 → 여러 개의 자식 요소를 가질 수 있음
     - 자식 → 단 하나의 부모 요소만 가질 수 있음

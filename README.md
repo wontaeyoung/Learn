@@ -26,6 +26,8 @@
 - [오류 처리](https://github.com/hexter1994/Learn/blob/main/Swift/%EC%98%A4%EB%A5%98%20%EC%B2%98%EB%A6%AC.md)
 - [고차함수](https://github.com/hexter1994/Learn/blob/main/Swift/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md)
 
+## Paradigm
+- [객체 지향](https://github.com/hexter1994/Learn/blob/main/CS/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5.md)
 
 ## Git
 - [버전 관리](https://github.com/hexter1994/Learn/blob/main/Git/%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC.md)

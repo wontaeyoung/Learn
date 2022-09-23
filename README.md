@@ -27,7 +27,7 @@
 - [고차함수](https://github.com/hexter1994/Learn/blob/main/Swift/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md)
 
 ## Paradigm
-- [객체 지향](https://github.com/hexter1994/Learn/blob/main/CS/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5.md)
+- [객체 지향](https://github.com/hexter1994/Learn/blob/main/Paradigm/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5.md)
 - [함수형](https://github.com/hexter1994/Learn/blob/main/Paradigm/%ED%95%A8%EC%88%98%ED%98%95.md)
 
 ## Git

@@ -28,6 +28,7 @@
 
 ## Paradigm
 - [객체 지향](https://github.com/hexter1994/Learn/blob/main/CS/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5.md)
+- [함수형](https://github.com/hexter1994/Learn/blob/main/Paradigm/%ED%95%A8%EC%88%98%ED%98%95.md)
 
 ## Git
 - [버전 관리](https://github.com/hexter1994/Learn/blob/main/Git/%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC.md)
